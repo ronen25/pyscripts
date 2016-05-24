@@ -43,4 +43,4 @@ class CheckedInput:
         return c
 
     def input_yes_no(prompt):
-        return input_choice(prompt, ['y', 'n'])
+        return input_choice(prompt, ['y', 'n', 'Y', 'N'])
